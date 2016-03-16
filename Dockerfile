@@ -58,4 +58,4 @@ RUN set -ex \
 	} | tee php-fpm.d/zz-docker.conf
 
 EXPOSE 9000
-CMD ["php-fpm"]
+CMD ["php-fpm7.0"]
